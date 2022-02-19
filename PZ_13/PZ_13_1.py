@@ -15,9 +15,9 @@ def func_chunks_num(lst, c_num):
 
 
 # делим список на 2 равные части
-print(list(func_chunks_num([1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20], c_num=2)))
+print(list(func_chunks_num([n for n in range(1, 21)], c_num=2)))
 # присваиваем значение в b
-b.append(list(func_chunks_num([1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20], c_num=2)))
+b.append(list(func_chunks_num([n for n in range(1, 21)], c_num=2)))
 # выводим последнюю половину
 print('Последняя половина: {0}'.format(list(b[0][1])))
 # сумма элементов
