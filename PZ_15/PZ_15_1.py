@@ -15,4 +15,7 @@ for i in range(N):
 for i in range(N):                                             # выводим матрицу
     print(arr[i])
 
-print(m)
+if m != 0:
+    print('Максимальный элемент =', m)
+else:
+    print('Элемент не найден')
